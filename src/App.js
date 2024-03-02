@@ -2,11 +2,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Error from "./website/error/Error";
 import Navbar from "./website/navbar/Navbar";
 import Footer from "./website/footer/Footer";
-import Home from "./website/home/Home";
-import About from "./website/about/About";
-import Connect from "./website/connect/Connect";
-import Service from "./website/services/Service";
-import Gallery from "./website/gallery/Gallery";
+import Home from "./website/pages/home/Home";
 import ScrollToTop from "./website/scrolltotop/ScrollToTop";
 
 const App = () => {
@@ -19,10 +15,6 @@ const App = () => {
           {/* ======================= Start-pages ======================= */}
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/connect" element={<Connect />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/service" element={<Service />} />
           {/* ======================= End-pages ======================= */}
 
           {/* ======================= Start-Error ======================= */}

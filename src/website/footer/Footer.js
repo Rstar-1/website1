@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import FeatherIcon from "feather-icons-react";
-import logo from "../../assets/kne.JPG";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (

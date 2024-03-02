@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import FeatherIcon from "feather-icons-react";
-import logo from "../../assets/kne.JPG"
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [sidebarshow, setsidebarshow] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full ptpx10 pbpx10 bgwhite sm-ptpx1 sm-pbpx1 navbar">
+    <div className="w-full ptpx10 pbpx30 bgwhite sm-ptpx1 sm-pbpx1 navbar">
       {sidebarshow ? (
         <div className="bg-glass fixed hidden h-100 sm-block w-full z-99">
           <div className="bgwhite w-90 h-100 absolute right-0 top-0">
@@ -72,34 +72,88 @@ const Navbar = () => {
           </div>
         </div>
       ) : null}
-      <div className="flex justify-between items-center container mx-auto">
-        <div className="">
-            <img
-              src={logo}
-              alt="logo"
-              className="object-contain nav-logo"
-            />
-        </div>
-        <div className="flex justify-center gap-5 items-center sm-hidden">
-          {NavMenu.map((e) => (
-            <>
-              <NavLink
-                activeClass="active"
-                className="fsize17 activetext mlpx40 cursor-pointer"
-                to={e.route}
-              >
-                {e.name}
-              </NavLink>
-            </>
-          ))}
-        </div>
-        <div className="hidden sm-block">
-          <div className="bg-fa sidebar-icon rounded-5 justify-center items-center flex">
-            <FeatherIcon
-              icon="align-justify"
-              className="textgray"
-              onClick={() => setsidebarshow(true)}
-            />
+      <div className="container mx-auto">
+        <div className="relative flex justify-between items-center ">
+          <div className="">
+            <img src={logo} alt="logo" className="object-contain nav-logo" />
+          </div>
+          <div className="flex items-center sm-hidden">
+            <div className="flex items-center">
+              <FeatherIcon icon="map-pin" size={25} className="textdark flex" />
+              <div className="mlpx15">
+                <h3 className="fsize15 font-500 mtpx1 mbpx1 textdark">
+                  Address:
+                </h3>
+                <p className="fsize12 mtpx1 mbpx1 textgray">
+                  Mumbai, Maharashtra
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center mlpx30">
+              <FeatherIcon icon="mail" size={25} className="textdark flex" />
+              <div className="mlpx15">
+                <h3 className="fsize15 font-500 mtpx1 mbpx1 textdark">
+                  Email:
+                </h3>
+                <p className="fsize12 mtpx1 mbpx1 textgray">abcd@gmail.com</p>
+              </div>
+            </div>
+            <div className="mlpx30">
+              <button className="border-primary plpx20 prpx20 ptpx6 pbpx6 bgwhite textprimary fsize15">
+                Get Quote
+              </button>
+            </div>
+          </div>
+          <div className="hidden sm-block">
+            <div className="bg-fa sidebar-icon rounded-5 justify-center items-center flex">
+              <FeatherIcon
+                icon="align-justify"
+                className="textgray"
+                onClick={() => setsidebarshow(true)}
+              />
+            </div>
+          </div>
+          <div className="absolute sm-hidden bottom-0 left-0 bgprimary z-20 minus-nav ptpx20 pbpx20 w-full">
+            <div className="flex items-center justify-between plpx20 prpx40">
+              <div className="flex items-center">
+                {NavMenu.map((e) => (
+                  <>
+                    <div className="flex items-center">
+                      <NavLink
+                        activeClass="active"
+                        className="fsize17 activetext mrpx20 mlpx20 cursor-pointer"
+                        to={e.route}
+                      >
+                        {e.name}
+                      </NavLink>
+                      <p className="textwhite mlpx8">/</p>
+                    </div>
+                  </>
+                ))}
+              </div>
+              <div className="flex items-center">
+                <FeatherIcon
+                  icon="facebook"
+                  size={17}
+                  className="textwhite mlpx12"
+                />
+                <FeatherIcon
+                  icon="instagram"
+                  size={17}
+                  className="textwhite mlpx12"
+                />
+                <FeatherIcon
+                  icon="linkedin"
+                  size={17}
+                  className="textwhite mlpx12"
+                />
+                <FeatherIcon
+                  icon="youtube"
+                  size={17}
+                  className="textwhite mlpx12"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

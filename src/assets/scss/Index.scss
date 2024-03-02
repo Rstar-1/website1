@@ -1,5 +1,5 @@
 /* ======================= Start-Color ======================= */
-$primary: #000c20 !important;
+$primary: #000f32 !important;
 $secondary: #517259 !important;
 $tertiary: #222131 !important;
 $forth: #121018 !important;
@@ -177,15 +177,15 @@ $gray: gray !important;
 
 /* ======================= Start-Font-Family ======================= */
 @font-face {
-  font-family: "poppins-regular";
-  src: local("poppins-regular"),
-    url("../fonts/Poppins/Poppins-Regular.ttf") format("opentype");
+  font-family: "sourcesans3-regular";
+  src: local("sourcesans3-regular"),
+    url("../fonts/SourceSans3-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 body {
-  font-family: "poppins-regular" !important;
+  font-family: "sourcesans3-regular" !important;
 }
 a,
 p,
@@ -199,7 +199,7 @@ span,
 button,
 input,
 li {
-  font-family: "poppins-regular" !important;
+  font-family: "sourcesans3-regular" !important;
 }
 /* ======================= End-Font-Family ======================= */
 
@@ -524,7 +524,7 @@ tr:nth-child(even):hover {
   height: 30px !important;
 }
 .activetext {
-  color: $forth;
+  color: $white;
   font-weight: 500 !important;
 }
 .navbar .active {
@@ -540,10 +540,13 @@ tr:nth-child(even):hover {
 }
 .nav-logo {
   width: 100% !important;
-  height: 50px !important;
+  height: 80px !important;
   @media (max-width: 640px) {
       height: 30px !important;
   }
+}
+.minus-nav{
+  margin-bottom: -70px !important;
 }
 /* ======================= End-Navbar ======================= */
 
@@ -551,117 +554,12 @@ tr:nth-child(even):hover {
 .banner-img {
   width: 100% !important;
   height: 550px !important;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%) !important;
   @media (max-width: 640px) {
     width: 100% !important;
     height: 390px !important;
   }
 }
-.aboutleft-img {
-  width: 100% !important;
-  height: 450px !important;
-  @media (max-width: 640px) {
-    width: 100% !important;
-    height: 250px !important;
-  }
-}
-.service-card{
-  height: 170px !important;
-  @media (max-width: 640px) {
-   height: 185px !important;
-  }
-}
-.product-img {
-  width: 100% !important;
-  height: 300px !important;
-  @media (max-width: 640px) {
-    width: 100% !important;
-  height: 200px !important;
-  }
-}
-.circle-img {
-  width: 40px !important;
-  height: 40px !important;
-  @media (max-width: 640px) {
-    width: 30px !important;
-    height: 30px !important;
-  }
-}
-.feature-img {
-  width: 100% !important;
-  height: 400px !important;
-  @media (max-width: 640px) {
-    width: 100% !important;
-    height: 280px !important;
-  }
-}
-.count-img {
-  width: 100% !important;
-  height: 350px !important;
-  @media (max-width: 640px) {
-    width: 100% !important;
-    height: 280px !important;
-  }
-}
 /* ======================= End-Home ======================= */
-
-/* ======================= Start-About ======================= */
-.about1-img {
-  width: 100% !important;
-  height: 450px !important;
-  @media (max-width: 640px) {
-    width: 100% !important;
-    height: 250px !important;
-  }
-}
-.about2-img {
-  width: 100% !important;
-  height: 450px !important;
-  @media (max-width: 640px) {
-    width: 100% !important;
-    height: 250px !important;
-  }
-}
-/* ======================= End-About ======================= */
-
-/* ======================= Start-Service ======================= */
-.info-img {
-  width: 55px !important;
-  height: 55px !important;
-}
-.side-img {
-  width: 105px !important;
-  height: 105px !important;
-}
-/* ======================= End-Service ======================= */
-
-/* ======================= Start-Gallery ======================= */
-.grid-img {
-  width: 100% !important;
-  height: 300px !important;
-}
-/* ======================= End-Gallery ======================= */
-
-/* ======================= Start-Connect ======================= */
-.connect-img {
-  width: 90px !important;
-  height: 90px !important;
-  @media (max-width: 640px) {
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
-.social-connect {
-  width: 40px !important;
-  height: 40px !important;
-  border-radius: 50% !important;
-}
-@media (max-width: 640px) {
-  .sm-bgnone {
-    background: none !important;
-  }
-}
-/* ======================= End-Connect ======================= */
 
 /* ======================= Start-Footer ======================= */
 .footlogo {
