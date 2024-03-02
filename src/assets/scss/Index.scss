@@ -524,19 +524,11 @@ tr:nth-child(even):hover {
   height: 30px !important;
 }
 .activetext {
-  color: $white;
+  color: $gray;
   font-weight: 500 !important;
 }
 .navbar .active {
-  color: $primary;
-  font-weight: 600 !important;
-  border-bottom: 1px solid $primary;
-  padding: 0px 16px 4px 16px !important;
-  @media (max-width:640px) {
-     padding: 0px 0px 7px 0px !important;
-     font-weight: 400 !important;
-     width: 50% !important;
-  }
+  color: $white;
 }
 .nav-logo {
   width: 100% !important;
