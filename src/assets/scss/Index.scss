@@ -1,7 +1,7 @@
 /* ======================= Start-Color ======================= */
 $primary: #000f32 !important;
-$secondary: #517259 !important;
-$tertiary: #222131 !important;
+$secondary: hsl(135, 17%, 38%) !important;
+$tertiary: #8f97ab !important;
 $forth: #121018 !important;
 $success: #4bb543 !important;
 $warning: #ff5722 !important;
@@ -66,6 +66,15 @@ $gray: gray !important;
 }
 .bg-fa {
   background-color: #fafafa !important;
+}
+.bg-f6f6f6 {
+  background-color: #f6f6f6 !important;
+}
+.bg-efefef {
+  background-color: #efefef !important;
+}
+.bg-e9e9e9 {
+  background-color: #e9e9e9 !important;
 }
 .bg-purple {
   background-color: #6610f2 !important;
@@ -297,8 +306,8 @@ p {
 .h-banner {
   width: 100% !important;
   height: 340px !important;
-  @media (max-width:640px) {
-     height: 200px !important;
+  @media (max-width: 640px) {
+    height: 200px !important;
   }
 }
 /* ======================= End-Maincss ======================= */
@@ -524,8 +533,8 @@ tr:nth-child(even):hover {
   height: 30px !important;
 }
 .activetext {
-  color: $gray;
-  font-weight: 500 !important;
+  color: $tertiary;
+  font-weight: 600 !important;
 }
 .navbar .active {
   color: $white;
@@ -534,10 +543,10 @@ tr:nth-child(even):hover {
   width: 100% !important;
   height: 80px !important;
   @media (max-width: 640px) {
-      height: 30px !important;
+    height: 30px !important;
   }
 }
-.minus-nav{
+.minus-nav {
   margin-bottom: -70px !important;
 }
 /* ======================= End-Navbar ======================= */
@@ -549,6 +558,58 @@ tr:nth-child(even):hover {
   @media (max-width: 640px) {
     width: 100% !important;
     height: 390px !important;
+  }
+}
+.info-hei {
+  width: 100% !important;
+  height: 350px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.info-hei:hover{
+  border-bottom: 5px solid $primary;
+}
+.info-img {
+  width: 80px !important;
+  height: 80px !important;
+  @media (max-width: 640px) {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+.info-hr {
+  border: none !important;
+  height: 5px !important;
+  background: $gray;
+  width: 20% !important;
+  border-radius: 10px !important;
+}
+.abcom-img {
+  height: 480px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+.abcom-hr {
+  border: none !important;
+  height: 5px !important;
+  background: $gray;
+  width: 20% !important;
+  border-radius: 10px !important;
+}
+.bordh{
+  border-top: 1px solid #ececec;
+}
+.bordall{
+  border-left: 1px dashed #999;
+  border-right: 1px dashed #999;
+}
+.abcom-side-img {
+  width: 80px !important;
+  height: 80px !important;
+  @media (max-width: 640px) {
+    width: 30px !important;
+    height: 30px !important;
   }
 }
 /* ======================= End-Home ======================= */
