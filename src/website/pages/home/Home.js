@@ -3,6 +3,11 @@ import React from "react";
 import Banner from "./components/Banner";
 import Information from "./components/Information";
 import AboutCompany from "./components/AboutCompany";
+import Patch from "./components/Patch";
+import OurService from "./components/OurService";
+import OurTeam from "./components/OurTeam";
+import Counter from "./components/Counter";
+import Quote from "./components/Quote";
 
 const Home = () => {
 
@@ -11,6 +16,11 @@ const Home = () => {
       <Banner />
       <Information />
       <AboutCompany />
+      <Patch />
+      <OurService />
+      <OurTeam />
+      <Counter />
+      <Quote />
     </div>
   );
 };
