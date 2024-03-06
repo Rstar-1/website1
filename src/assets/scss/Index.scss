@@ -1,6 +1,6 @@
 /* ======================= Start-Color ======================= */
 $primary: #000f32 !important;
-$secondary: hsl(135, 17%, 38%) !important;
+$secondary: #001648 !important;
 $tertiary: #8f97ab !important;
 $forth: #121018 !important;
 $success: #4bb543 !important;
@@ -189,18 +189,18 @@ $gray: gray !important;
 
 /* ======================= Start-Font-Family ======================= */
 @font-face {
-  font-family: "poppins-regular";
-  src: local("poppins-regular"),
-    url("../fonts/Poppins-Regular.ttf") format("opentype");
+  font-family: "roboto-regular";
+  src: local("roboto-regular"),
+    url("../fonts/Roboto-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 p {
-  font-family: "poppins-regular" !important;
+  font-family: "roboto-regular" !important;
 }
 body {
-  font-family: "poppins-regular" !important;
+  font-family: "roboto-regular" !important;
 }
 a,
 h1,
@@ -213,7 +213,7 @@ span,
 button,
 input,
 li {
-  font-family: "poppins-regular" !important;
+  font-family: "roboto-regular" !important;
 }
 /* ======================= End-Font-Family ======================= */
 
@@ -298,6 +298,13 @@ p {
   border-left: none !important;
   border-right: none !important;
 }
+.text-bordb {
+  font-size: 17px !important;
+  border-bottom: 2px solid #f4f5f6 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
 .borderprimary {
   border: 1px solid #7367f0 !important;
 }
@@ -319,6 +326,13 @@ p {
 .h-banner {
   width: 100% !important;
   height: 340px !important;
+  @media (max-width: 640px) {
+    height: 200px !important;
+  }
+}
+.partner-img{
+   width: 100% !important;
+  height: 50px !important;
   @media (max-width: 640px) {
     height: 200px !important;
   }
@@ -547,7 +561,7 @@ tr:nth-child(even):hover {
 }
 .activetext {
   color: $tertiary;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 .navbar .active {
   color: $white;
@@ -688,28 +702,50 @@ tr:nth-child(even):hover {
 }
 /* ======================= End-Home ======================= */
 
-/* ======================= Start-Footer ======================= */
-.footlogo {
-  width: 30% !important;
+/* ======================= Start-Service ======================= */
+.ouservice-img {
+  width: 90px !important;
+  height: 90px !important;
+  @media (max-width: 640px) {
+    width: 100% !important;
+    height: 390px !important;
+  }
 }
-.footerimg {
-  width: 90% !important;
+.servdetails-img {
+  width: 100% !important;
+  height: 450px !important;
+  @media (max-width: 640px) {
+    width: 100% !important;
+    height: 390px !important;
+  }
+}
+.serv-logo {
+  width: 100% !important;
   height: 80px !important;
+  @media (max-width: 640px) {
+    width: 100% !important;
+    height: 390px !important;
+  }
 }
-.footcontent {
-  width: 70% !important;
+/* ======================= End-Service ======================= */
+
+/* ======================= Start-Footer ======================= */
+.footerimg {
+  width: 100% !important;
+  height: 80px !important;
 }
 .social-foot {
   width: 40px !important;
   height: 40px !important;
   border-radius: 50% !important;
 }
-.foot-hr {
-  height: 3px !important;
-  background: #7367f0 !important;
-  border: none !important;
-  width: 30% !important;
-  margin-left: 0px !important;
-  margin-right: auto !important;
+.textfoot{
+  color: #a4a0a0 !important;
+}
+.textfoot:hover{
+  color: #ececec !important;
+}
+.bgtransparent{
+  background: transparent !important;
 }
 /* ======================= End-Footer ======================= */

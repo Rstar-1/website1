@@ -8,6 +8,7 @@ import OurService from "./components/OurService";
 import OurTeam from "./components/OurTeam";
 import Counter from "./components/Counter";
 import Quote from "./components/Quote";
+import Partner from "./components/Partner";
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
       <OurTeam />
       <Counter />
       <Quote />
+      <Partner />
     </div>
   );
 };
