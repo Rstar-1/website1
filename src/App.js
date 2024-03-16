@@ -8,6 +8,7 @@ import Service from "./website/pages/service/Service";
 import Service2 from "./website/pages/service2/Service2";
 import ServiceDetails from "./website/pages/servicedetails/ServiceDetails";
 import Team from "./website/pages/team/Team";
+import About from "./website/pages/about/About";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           {/* ======================= Start-pages ======================= */}
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/service2" element={<Service2 />} />
           <Route path="/service-details" element={<ServiceDetails />} />

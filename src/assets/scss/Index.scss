@@ -330,13 +330,6 @@ p {
     height: 200px !important;
   }
 }
-.partner-img{
-   width: 100% !important;
-  height: 50px !important;
-  @media (max-width: 640px) {
-    height: 200px !important;
-  }
-}
 /* ======================= End-Maincss ======================= */
 
 /* ======================= Start-Pagination ======================= */
@@ -574,7 +567,7 @@ tr:nth-child(even):hover {
   }
 }
 .minus-nav {
-  margin-bottom: -70px !important;
+  margin-bottom: -90px !important;
 }
 /* ======================= End-Navbar ======================= */
 
@@ -593,7 +586,7 @@ tr:nth-child(even):hover {
   display: flex !important;
   align-items: center !important;
 }
-.info-hei:hover{
+.info-hei:hover {
   border-bottom: 5px solid $primary;
 }
 .info-img {
@@ -624,10 +617,10 @@ tr:nth-child(even):hover {
   width: 20% !important;
   border-radius: 10px !important;
 }
-.bordh{
+.bordh {
   border-top: 1px solid #ececec;
 }
-.bordall{
+.bordall {
   border-left: 1px dashed #999;
   border-right: 1px dashed #999;
 }
@@ -700,7 +693,75 @@ tr:nth-child(even):hover {
     height: 390px !important;
   }
 }
+.partner-img {
+  width: 100% !important;
+  height: 70px !important;
+  @media (max-width: 640px) {
+    height: 200px !important;
+  }
+}
 /* ======================= End-Home ======================= */
+
+/* ======================= Start-About ======================= */
+.border-side {
+  border-right: 2px solid $primary;
+}
+.aboutself-hr {
+  border: none !important;
+  height: 5px !important;
+  background: $gray;
+  width: 14% !important;
+  border-radius: 10px !important;
+  margin-left: inherit !important;
+}
+.aboutself-img {
+  height: 420px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+.aboutblog-img {
+  height: 220px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+.bg-overlay {
+  background: rgba(0, 26, 87, 0.9);
+  height: 570px;
+}
+.aboverlap-hr {
+  border: none !important;
+  height: 5px !important;
+  background: $gray;
+  width: 10% !important;
+  border-radius: 10px !important;
+  margin-left: inherit !important;
+}
+.about-iconsimg {
+  width: 80px !important;
+  height: 80px !important;
+  @media (max-width: 640px) {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+.about-absolute {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 100%;
+  margin-top: 170px !important;
+ 
+}
+.overlapaboutimg {
+  height: 500px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+/* ======================= End-About ======================= */
 
 /* ======================= Start-Service ======================= */
 .ouservice-img {
@@ -739,13 +800,13 @@ tr:nth-child(even):hover {
   height: 40px !important;
   border-radius: 50% !important;
 }
-.textfoot{
+.textfoot {
   color: #a4a0a0 !important;
 }
-.textfoot:hover{
+.textfoot:hover {
   color: #ececec !important;
 }
-.bgtransparent{
+.bgtransparent {
   background: transparent !important;
 }
 /* ======================= End-Footer ======================= */

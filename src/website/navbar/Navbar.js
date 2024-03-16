@@ -113,7 +113,7 @@ const Navbar = () => {
               />
             </div>
           </div>
-          <div className="absolute sm-hidden bottom-0 left-0 bgprimary z-20 minus-nav ptpx20 pbpx20 w-full">
+          <div className="absolute sm-hidden bottom-0 left-0 bgprimary z-20 minus-nav ptpx32 pbpx32 w-full">
             <div className="flex items-center justify-between plpx20 prpx40">
               <div className="flex items-center">
                 {NavMenu.map((e) => (
@@ -121,7 +121,7 @@ const Navbar = () => {
                     <div className="flex items-center">
                       <NavLink
                         activeClass="active"
-                        className="fsize17 activetext mrpx20 mlpx20 cursor-pointer"
+                        className="fsize18 activetext mrpx20 mlpx20 cursor-pointer"
                         to={e.route}
                       >
                         {e.name}

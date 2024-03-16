@@ -10,12 +10,12 @@ const Partner = () => {
     <div className="bg-f8faff ptpx20 pbpx20">
       <div className="container mx-auto">
         <div className="flex items-center w-full">
-          <div className="w-30">
-            <h6 className="fsize20 mtpx1 mbpx1 textdark">
-              Our<br></br>Partner
+          <div className="w-20">
+            <h6 className="fsize24 mtpx1 mbpx1 textdark">
+              Our<br></br>Partners
             </h6>
           </div>
-          <div className="w-70">
+          <div className="w-80">
             <Swiper
               grabCursor={true}
               className="mySwiper"
