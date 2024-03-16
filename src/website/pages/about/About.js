@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from './components/Banner'
-import Patch from './components/Patch'
+import Patch from './components/AboutPatch'
 import Aboutself from './components/Aboutself'
 import Partner from '../home/components/Partner'
 import AboutBlog from './components/AboutBlog'

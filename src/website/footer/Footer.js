@@ -40,7 +40,7 @@ const Footer = () => {
                     <img
                       src="https://html.creativegigstf.com/charles/images/blog/1.jpg"
                       alt="blogs"
-                      className="footerimg rounded-10"
+                      className="footerimg object-cover rounded-10"
                     />
                   </div>
                   <div className="w-80 plpx15">
@@ -55,9 +55,9 @@ const Footer = () => {
                 <div className="flex items-center bordb pbpx10 mtpx20">
                   <div className="w-20">
                     <img
-                      src="https://html.creativegigstf.com/charles/images/blog/1.jpg"
+                      src="https://html.creativegigstf.com/charles/images/blog/4.jpg"
                       alt="blogs"
-                      className="footerimg rounded-10"
+                      className="footerimg object-cover rounded-10"
                     />
                   </div>
                   <div className="w-80 plpx15">
@@ -155,7 +155,7 @@ const Footer = () => {
                     />
                   </div>
                   <button className="border-0 cursor-pointer font-500 textprimary bgwhite rounded-5 ptpx12 pbpx12 sm-ptpx6 sm-pbpx6 sm-plpx20 sm-prpx20 plpx35 prpx35 mtpx30 fsize17 sm-fsize13">
-                   Newsletter
+                    Newsletter
                   </button>
                 </div>
               </div>

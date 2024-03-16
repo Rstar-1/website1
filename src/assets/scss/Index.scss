@@ -189,6 +189,14 @@ $gray: gray !important;
 
 /* ======================= Start-Font-Family ======================= */
 @font-face {
+  font-family: "poppins-semibold";
+  src: local("poppins-semibold"),
+    url("../fonts/Poppins-SemiBold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "roboto-regular";
   src: local("roboto-regular"),
     url("../fonts/Roboto-Regular.ttf") format("opentype");
@@ -196,13 +204,16 @@ $gray: gray !important;
   font-style: normal;
   font-display: swap;
 }
-p {
+p,
+input,
+textarea,
+button,
+a {
   font-family: "roboto-regular" !important;
 }
 body {
   font-family: "roboto-regular" !important;
 }
-a,
 h1,
 h2,
 h3,
@@ -210,16 +221,18 @@ h4,
 h5,
 h6,
 span,
-button,
-input,
 li {
-  font-family: "roboto-regular" !important;
+  font-family: "poppins-semibold" !important;
 }
 /* ======================= End-Font-Family ======================= */
 
 /* ======================= Start-scrollbar ======================= */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: $secondary;
+  border-radius: 10px;
 }
 /* ======================= End-scrollbar ======================= */
 
@@ -762,6 +775,33 @@ tr:nth-child(even):hover {
   }
 }
 /* ======================= End-About ======================= */
+
+/* ======================= Start-Connect ======================= */
+.connect-img {
+  height: 450px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+/* ======================= End-Connect ======================= */
+
+/* ======================= Start-Blog ======================= */
+.blog-img {
+  height: 400px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+/* ======================= End-Blog ======================= */
+
+/* ======================= Start-Gallery ======================= */
+.gallery-img {
+  height: 310px !important;
+  @media (max-width: 640px) {
+    height: 300px !important;
+  }
+}
+/* ======================= End-Gallery ======================= */
 
 /* ======================= Start-Service ======================= */
 .ouservice-img {

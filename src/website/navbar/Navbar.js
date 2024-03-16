@@ -27,6 +27,11 @@ const Navbar = () => {
       route: "gallery",
     },
     {
+      icon: "folder",
+      name: "Blog",
+      route: "blog",
+    },
+    {
       icon: "phone-call",
       name: "Connect Us",
       route: "connect",
