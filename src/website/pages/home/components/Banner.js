@@ -32,6 +32,10 @@ const Banner = () => {
           slidesPerView: 1,
           spaceBetween: 30,
         },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
         640: {
           slidesPerView: 1,
           spaceBetween: 30,

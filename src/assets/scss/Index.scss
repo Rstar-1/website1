@@ -224,6 +224,17 @@ span,
 li {
   font-family: "poppins-semibold" !important;
 }
+p {
+  line-height: 27px !important;
+  @media (max-width: 640px) {
+    line-height: 18px !important;
+  }
+}
+input, ::placeholder {
+  @media (max-width: 640px) {
+    font-size: 13px !important;
+  }
+}
 /* ======================= End-Font-Family ======================= */
 
 /* ======================= Start-scrollbar ======================= */
@@ -339,6 +350,9 @@ p {
 .h-banner {
   width: 100% !important;
   height: 340px !important;
+   @media (min-width: 641px) and (max-width: 768px) {
+    height: 280px !important;
+  }
   @media (max-width: 640px) {
     height: 200px !important;
   }
@@ -575,6 +589,9 @@ tr:nth-child(even):hover {
 .nav-logo {
   width: 100% !important;
   height: 80px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 50px !important;
+  }
   @media (max-width: 640px) {
     height: 30px !important;
   }
@@ -606,8 +623,8 @@ tr:nth-child(even):hover {
   width: 80px !important;
   height: 80px !important;
   @media (max-width: 640px) {
-    width: 30px !important;
-    height: 30px !important;
+    width: 60px !important;
+    height: 60px !important;
   }
 }
 .info-hr {
@@ -648,9 +665,11 @@ tr:nth-child(even):hover {
 .patch-img {
   width: 100% !important;
   height: 350px !important;
+    @media (min-width: 641px) and (max-width: 768px) {
+    height: 300px !important;
+  }
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 280px !important;
   }
 }
 .ouservice-hr {
@@ -710,7 +729,7 @@ tr:nth-child(even):hover {
   width: 100% !important;
   height: 70px !important;
   @media (max-width: 640px) {
-    height: 200px !important;
+    height: 70px !important;
   }
 }
 /* ======================= End-Home ======================= */
@@ -766,7 +785,6 @@ tr:nth-child(even):hover {
   transform: translate(-50%, -50%) !important;
   width: 100%;
   margin-top: 170px !important;
- 
 }
 .overlapaboutimg {
   height: 500px !important;
@@ -779,8 +797,11 @@ tr:nth-child(even):hover {
 /* ======================= Start-Connect ======================= */
 .connect-img {
   height: 450px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 340px !important;
+  }
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 /* ======================= End-Connect ======================= */
@@ -788,8 +809,11 @@ tr:nth-child(even):hover {
 /* ======================= Start-Blog ======================= */
 .blog-img {
   height: 400px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 320px !important;
+  }
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 /* ======================= End-Blog ======================= */
@@ -797,14 +821,24 @@ tr:nth-child(even):hover {
 /* ======================= Start-Gallery ======================= */
 .gallery-img {
   height: 310px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 320px !important;
+  }
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 /* ======================= End-Gallery ======================= */
 
 /* ======================= Start-Service ======================= */
-.ouservice-img {
+.service1-img {
+  width: 100% !important;
+  height: 150px !important;
+  @media (max-width: 640px) {
+    height: 100px !important;
+  }
+}
+.service2-img {
   width: 90px !important;
   height: 90px !important;
   @media (max-width: 640px) {

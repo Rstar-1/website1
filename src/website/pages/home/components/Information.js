@@ -20,16 +20,19 @@ const Information = () => {
             slidesPerView: 4,
           },
           991: {
-            slidesPerView: 2,
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 3,
           },
           640: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.3,
           },
           425: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.3,
           },
-          325: {
-            slidesPerView: 1.1,
+          320: {
+            slidesPerView: 1.3,
           },
         }}
       >
@@ -43,11 +46,11 @@ const Information = () => {
                   className="info-img object-contain"
                 />
               </div>
-              <h3 className="fsize25 mtpx5 mbpx1 text-center textdark font-600">
+              <h3 className="fsize22 md-fsize20 sm-fsize18 mtpx5 mbpx1 text-center textdark font-600">
                 Customer Insights
               </h3>
               <hr className="info-hr mtpx10" />
-              <p className="text-center mtpx17 fsize17 textgray">
+              <p className="text-center mtpx17 md-mtpx14 sm-mtpx10 sm-fsize14 md-fsize15 fsize17 textgray">
                 The east side to a deluxe apartment in move on up to the east
                 side
               </p>
@@ -64,11 +67,11 @@ const Information = () => {
                   className="info-img object-contain"
                 />
               </div>
-              <h3 className="fsize25 mtpx5 mbpx1 text-center textdark font-600">
+              <h3 className="fsize22 md-fsize20 sm-fsize18 mtpx5 mbpx1 text-center textdark font-600">
                 Customer Insights
               </h3>
               <hr className="info-hr mtpx10" />
-              <p className="text-center mtpx17 fsize17 textgray">
+              <p className="text-center mtpx17 md-mtpx14 sm-mtpx10 sm-fsize14 md-fsize15 fsize17 textgray">
                 The east side to a deluxe apartment in move on up to the east
                 side
               </p>
@@ -85,11 +88,11 @@ const Information = () => {
                   className="info-img object-contain"
                 />
               </div>
-              <h3 className="fsize25 mtpx5 mbpx1 text-center textdark font-600">
+              <h3 className="fsize22 md-fsize20 sm-fsize18 mtpx5 mbpx1 text-center textdark font-600">
                 Customer Insights
               </h3>
               <hr className="info-hr mtpx10" />
-              <p className="text-center mtpx17 fsize17 textgray">
+              <p className="text-center mtpx17 md-mtpx14 sm-mtpx10 sm-fsize14 md-fsize15 fsize17 textgray">
                 The east side to a deluxe apartment in move on up to the east
                 side
               </p>
@@ -106,11 +109,11 @@ const Information = () => {
                   className="info-img object-contain"
                 />
               </div>
-              <h3 className="fsize25 mtpx5 mbpx1 text-center textdark font-600">
+              <h3 className="fsize22 md-fsize20 sm-fsize18 mtpx5 mbpx1 text-center textdark font-600">
                 Customer Insights
               </h3>
               <hr className="info-hr mtpx10" />
-              <p className="text-center mtpx17 fsize17 textgray">
+              <p className="text-center mtpx17 md-mtpx14 sm-mtpx10 sm-fsize14 md-fsize15 fsize17 textgray">
                 The east side to a deluxe apartment in move on up to the east
                 side
               </p>

@@ -9,13 +9,13 @@ const Partner = () => {
   return (
     <div className="bg-f8faff ptpx20 pbpx20">
       <div className="container mx-auto">
-        <div className="flex items-center w-full">
-          <div className="w-20">
-            <h6 className="fsize24 mtpx1 mbpx1 textdark">
+        <div className="flex sm-block items-center w-full">
+          <div className="w-20 sm-w-full">
+            <h6 className="fsize24 md-fsize22 sm-fsize20 mtpx1 mbpx1 textdark">
               Our<br></br>Partners
             </h6>
           </div>
-          <div className="w-80">
+          <div className="w-80 sm-mtpx10 sm-w-full">
             <Swiper
               grabCursor={true}
               className="mySwiper"
@@ -34,16 +34,19 @@ const Partner = () => {
                   slidesPerView: 5,
                 },
                 991: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
+                },
+                768: {
+                  slidesPerView: 3,
                 },
                 640: {
-                  slidesPerView: 1.1,
+                  slidesPerView: 2,
                 },
                 425: {
-                  slidesPerView: 1.1,
+                  slidesPerView: 2,
                 },
-                325: {
-                  slidesPerView: 1.1,
+                320: {
+                  slidesPerView: 2,
                 },
               }}
             >

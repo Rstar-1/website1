@@ -18,7 +18,7 @@ const Services = () => {
               <img
                 src="https://html.creativegigstf.com/charles/images/icon/5.png"
                 alt="service"
-                className="ouservice-img object-contain"
+                className="service2-img object-contain"
               />
             </div>
             <div className="text-center">
@@ -36,7 +36,7 @@ const Services = () => {
               <img
                 src="https://html.creativegigstf.com/charles/images/icon/10.png"
                 alt="service"
-                className="ouservice-img object-contain"
+                className="service2-img object-contain"
               />
             </div>
             <div className="text-center">
@@ -54,7 +54,7 @@ const Services = () => {
               <img
                 src="https://html.creativegigstf.com/charles/images/icon/6.png"
                 alt="service"
-                className="ouservice-img object-contain"
+                className="service2-img object-contain"
               />
             </div>
             <div className="text-center">
@@ -72,7 +72,7 @@ const Services = () => {
               <img
                 src="https://html.creativegigstf.com/charles/images/icon/7.png"
                 alt="service"
-                className="ouservice-img object-contain"
+                className="service2-img object-contain"
               />
             </div>
             <div className="text-center">
@@ -90,7 +90,7 @@ const Services = () => {
               <img
                 src="https://html.creativegigstf.com/charles/images/icon/8.png"
                 alt="service"
-                className="ouservice-img object-contain"
+                className="service2-img object-contain"
               />
             </div>
             <div className="text-center">
@@ -108,7 +108,7 @@ const Services = () => {
               <img
                 src="https://html.creativegigstf.com/charles/images/icon/9.png"
                 alt="service"
-                className="ouservice-img object-contain"
+                className="service2-img object-contain"
               />
             </div>
             <div className="text-center">

@@ -39,14 +39,14 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full ptpx10 pbpx30 bgwhite sm-ptpx1 sm-pbpx1 navbar">
+    <div className="w-full ptpx10 pbpx30 bgwhite md-ptpx1 md-pbpx1 sm-ptpx1 sm-pbpx1 navbar">
       {sidebarshow ? (
-        <div className="bg-glass fixed hidden h-100 sm-block w-full z-99">
-          <div className="bgwhite w-90 h-100 absolute right-0 top-0">
+        <div className="bg-glass fixed hidden h-100 md-block sm-block w-full z-99">
+          <div className="bgwhite w-90 md-w-40 h-100 absolute right-0 top-0">
             <div className="bgprimary p5">
               <div className="flex items-center justify-between gap-4 plpx10 prpx10">
                 <p className="fsize16 textwhite mtpx4 mbpx4 cursor-pointer font-500">
-                  Krishi Engineering Works
+                  Logo
                 </p>
                 <FeatherIcon
                   icon="x"
@@ -82,7 +82,7 @@ const Navbar = () => {
           <div className="">
             <img src={logo} alt="logo" className="object-contain nav-logo" />
           </div>
-          <div className="flex items-center sm-hidden">
+          <div className="flex items-center md-hidden sm-hidden">
             <div className="flex items-center">
               <FeatherIcon icon="map-pin" size={25} className="textdark flex" />
               <div className="mlpx15">
@@ -109,7 +109,7 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-          <div className="hidden sm-block">
+          <div className="hidden md-block sm-block">
             <div className="bg-fa sidebar-icon rounded-5 justify-center items-center flex">
               <FeatherIcon
                 icon="align-justify"
@@ -118,7 +118,7 @@ const Navbar = () => {
               />
             </div>
           </div>
-          <div className="absolute sm-hidden bottom-0 left-0 bgprimary z-20 minus-nav ptpx32 pbpx32 w-full">
+          <div className="absolute md-hidden sm-hidden bottom-0 left-0 bgprimary z-20 minus-nav ptpx32 pbpx32 w-full">
             <div className="flex items-center justify-between plpx20 prpx40">
               <div className="flex items-center">
                 {NavMenu.map((e) => (
