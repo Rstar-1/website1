@@ -230,7 +230,8 @@ p {
     line-height: 18px !important;
   }
 }
-input, ::placeholder {
+input,
+::placeholder {
   @media (max-width: 640px) {
     font-size: 13px !important;
   }
@@ -350,7 +351,7 @@ p {
 .h-banner {
   width: 100% !important;
   height: 340px !important;
-   @media (min-width: 641px) and (max-width: 768px) {
+  @media (min-width: 641px) and (max-width: 768px) {
     height: 280px !important;
   }
   @media (max-width: 640px) {
@@ -605,9 +606,21 @@ tr:nth-child(even):hover {
 .banner-img {
   width: 100% !important;
   height: 550px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 300px !important;
+  }
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 280px !important;
+  }
+}
+.banner2-img {
+  width: 100% !important;
+  height: 550px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 300px !important;
+  }
+  @media (max-width: 640px) {
+    height: 280px !important;
   }
 }
 .info-hei {
@@ -637,7 +650,7 @@ tr:nth-child(even):hover {
 .abcom-img {
   height: 480px !important;
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 .abcom-hr {
@@ -657,6 +670,10 @@ tr:nth-child(even):hover {
 .abcom-side-img {
   width: 80px !important;
   height: 80px !important;
+    @media (min-width: 641px) and (max-width: 768px) {
+     width: 50px !important;
+    height: 50px !important;
+  }
   @media (max-width: 640px) {
     width: 30px !important;
     height: 30px !important;
@@ -665,7 +682,7 @@ tr:nth-child(even):hover {
 .patch-img {
   width: 100% !important;
   height: 350px !important;
-    @media (min-width: 641px) and (max-width: 768px) {
+  @media (min-width: 641px) and (max-width: 768px) {
     height: 300px !important;
   }
   @media (max-width: 640px) {
@@ -681,10 +698,9 @@ tr:nth-child(even):hover {
 }
 .ouservice-img {
   width: 100% !important;
-  height: 140px !important;
+  height: 150px !important;
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 100px !important;
   }
 }
 .team-hr {
@@ -697,17 +713,21 @@ tr:nth-child(even):hover {
 .team-img {
   width: 100% !important;
   height: 240px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 200px !important;
+  }
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 180px !important;
   }
 }
 .count-img {
   width: 100% !important;
   height: 550px !important;
+   @media (min-width: 641px) and (max-width: 768px) {
+    height: 320px !important;
+  }
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 250px !important;
   }
 }
 .quote-hr {
@@ -748,19 +768,31 @@ tr:nth-child(even):hover {
 }
 .aboutself-img {
   height: 420px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 320px !important;
+  }
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 .aboutblog-img {
   height: 220px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 320px !important;
+  }
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 .bg-overlay {
   background: rgba(0, 26, 87, 0.9);
   height: 570px;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 350px !important;
+  }
+  @media (max-width: 640px) {
+    height: 250px !important;
+  }
 }
 .aboverlap-hr {
   border: none !important;
@@ -773,9 +805,13 @@ tr:nth-child(even):hover {
 .about-iconsimg {
   width: 80px !important;
   height: 80px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    width: 40px !important;
+    height: 40px !important;
+  }
   @media (max-width: 640px) {
-    width: 50px !important;
-    height: 50px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
 }
 .about-absolute {
@@ -788,8 +824,21 @@ tr:nth-child(even):hover {
 }
 .overlapaboutimg {
   height: 500px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 350px !important;
+  }
   @media (max-width: 640px) {
-    height: 300px !important;
+    height: 250px !important;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  .md-about-height {
+    height: 350px !important;
+  }
+}
+@media (max-width: 640px) {
+  .sm-about-height {
+    height: 250px !important;
   }
 }
 /* ======================= End-About ======================= */
@@ -842,27 +891,44 @@ tr:nth-child(even):hover {
   width: 90px !important;
   height: 90px !important;
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    width: 60px !important;
+    height: 60px !important;
   }
 }
 .servdetails-img {
   width: 100% !important;
   height: 450px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 300px !important;
+  }
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 280px !important;
   }
 }
 .serv-logo {
   width: 100% !important;
   height: 80px !important;
+   @media (min-width: 641px) and (max-width: 768px) {
+    height: 60px !important;
+  }
   @media (max-width: 640px) {
-    width: 100% !important;
-    height: 390px !important;
+    height: 50px !important;
   }
 }
 /* ======================= End-Service ======================= */
+
+/* ======================= Start-Teams ======================= */
+.teams-image {
+  width: 100% !important;
+  height: 240px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 200px !important;
+  }
+  @media (max-width: 640px) {
+    height: 180px !important;
+  }
+}
+/* ======================= End-Teams ======================= */
 
 /* ======================= Start-Footer ======================= */
 .footerimg {

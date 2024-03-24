@@ -2,7 +2,7 @@ import React from 'react'
 
 const Patch = () => {
   return (
-    <div className="ptpx40 pbpx40 md-ptpx30 md-pbpx30 sm-ptpx20 sm-ptpx20">
+    <div className="ptpx40 pbpx40 md-ptpx30 md-pbpx30 sm-ptpx20 sm-pbpx20">
       <div className="container mx-auto">
         <div className="flex sm-block items-center">
           <div className="w-20 md-w-30 sm-w-full border-side prpx20 md-plpx6 md-prpx6 sm-prpx3 sm-plpx3 plpx20">

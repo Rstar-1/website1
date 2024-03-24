@@ -7,7 +7,7 @@ import "swiper/swiper.min.css";
 const AboutBlog = () => {
     SwiperCore.use([Autoplay]);
   return (
-    <div className="bg-f8faff ptpx60 pbpx60">
+    <div className="bg-f8faff ptpx60 pbpx60 md-ptpx30 md-pbpx30 sm-ptpx20 sm-pbpx20">
       <div className="container mx-auto">
         <Swiper
           grabCursor={true}
@@ -30,7 +30,11 @@ const AboutBlog = () => {
               spaceBetween: 20,
             },
             991: {
-              slidesPerView: 2,
+              slidesPerView: 2.5,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2.5,
               spaceBetween: 20,
             },
             640: {
@@ -55,10 +59,10 @@ const AboutBlog = () => {
                 className="aboutblog-img flex object-cover w-full"
               />
               <div className="p16">
-                <h4 className="fsize22 mbpx1 mtpx1 textprimary font-600">
+                <h4 className="fsize22 md-fsize18 sm-fsize16 mbpx1 mtpx1 textprimary font-600">
                   Innovation Solution
                 </h4>
-                <p className="fsize16 mtpx6 textgray">
+                <p className="fsize16 md-fsize14 sm-fsize14 mtpx6 textgray">
                   The Love Boat soon will be making other run plore strange
                   tools.
                 </p>
@@ -73,10 +77,10 @@ const AboutBlog = () => {
                 className="aboutblog-img flex object-cover w-full"
               />
               <div className="p16">
-                <h4 className="fsize22 mbpx1 mtpx1 textprimary font-600">
+                <h4 className="fsize22 md-fsize18 sm-fsize16 mbpx1 mtpx1 textprimary font-600">
                   Innovation Solution
                 </h4>
-                <p className="fsize16 mtpx6 textgray">
+                <p className="fsize16 md-fsize14 sm-fsize14 mtpx6 textgray">
                   The Love Boat soon will be making other run plore strange
                   tools.
                 </p>
@@ -91,10 +95,10 @@ const AboutBlog = () => {
                 className="aboutblog-img flex object-cover w-full"
               />
               <div className="p16">
-                <h4 className="fsize22 mbpx1 mtpx1 textprimary font-600">
+                <h4 className="fsize22 md-fsize18 sm-fsize16 mbpx1 mtpx1 textprimary font-600">
                   Innovation Solution
                 </h4>
-                <p className="fsize16 mtpx6 textgray">
+                <p className="fsize16 md-fsize14 sm-fsize14 mtpx6 textgray">
                   The Love Boat soon will be making other run plore strange
                   tools.
                 </p>
@@ -109,10 +113,10 @@ const AboutBlog = () => {
                 className="aboutblog-img flex object-cover w-full"
               />
               <div className="p16">
-                <h4 className="fsize22 mbpx1 mtpx1 textprimary font-600">
+                <h4 className="fsize22 md-fsize18 sm-fsize16 mbpx1 mtpx1 textprimary font-600">
                   Innovation Solution
                 </h4>
-                <p className="fsize16 mtpx6 textgray">
+                <p className="fsize16 md-fsize14 sm-fsize14 mtpx6 textgray">
                   The Love Boat soon will be making other run plore strange
                   tools.
                 </p>
